@@ -1,0 +1,88 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    height: 100vh;
+    padding: 20px 25px;
+
+}
+
+body {
+    background:
+        url('images/bg-desktop.svg'),
+        hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: open sans, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+}
+
+section {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.community {
+    margin-top: 30px;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3.0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reg {
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    color: blueviolet;
+    border: none;
+}
+
+
+.socials {
+    display: flex;
+    gap: 5px;
+    /* space between logos */
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* center vertically */
+    margin-top: 220px;
+    margin-left: 300px;
+}
+
+.socials img {
+    width: 20px;
+    /* uniform size */
+    height: auto;
+    /* maintain aspect ratio */
+
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 680px) {
+    .responsive {
+        max-width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+}
